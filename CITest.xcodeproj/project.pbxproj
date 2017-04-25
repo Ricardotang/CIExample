@@ -38,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04E60FB81EAE247100952CD7 /* CITest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CITest.entitlements; sourceTree = "<group>"; };
 		04FF14301EADC38400170A34 /* CITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FF14341EADC38400170A34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04FF14361EADC38400170A34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -118,6 +119,7 @@
 		04FF14321EADC38400170A34 /* CITest */ = {
 			isa = PBXGroup;
 			children = (
+				04E60FB81EAE247100952CD7 /* CITest.entitlements */,
 				04FF14361EADC38400170A34 /* AppDelegate.h */,
 				04FF14371EADC38400170A34 /* AppDelegate.m */,
 				04FF14391EADC38400170A34 /* ViewController.h */,
@@ -256,8 +258,13 @@
 				TargetAttributes = {
 					04FF142F1EADC38400170A34 = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = WAV9C6Z7U4;
+						DevelopmentTeam = 56JAM34B5U;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
 					};
 					04FF14481EADC38500170A34 = {
 						CreatedOnToolsVersion = 8.3.1;
@@ -615,7 +622,7 @@
 			baseConfigurationReference = F778601E075F0FBB90A58740 /* Pods-CITest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WAV9C6Z7U4;
+				DEVELOPMENT_TEAM = 56JAM34B5U;
 				INFOPLIST_FILE = CITest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.sumpay.CITest;
@@ -628,7 +635,7 @@
 			baseConfigurationReference = 3BFCDB5479E88C27FA51D1F1 /* Pods-CITest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WAV9C6Z7U4;
+				DEVELOPMENT_TEAM = 56JAM34B5U;
 				INFOPLIST_FILE = CITest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.sumpay.CITest;
